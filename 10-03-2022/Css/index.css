@@ -181,3 +181,21 @@ h2 {
     background-color: rgb(255, 102, 0);
     margin: 5px;
 }
+
+
+/* media query */
+
+@media only screen and (min-width: 800px) {
+    .home-div {
+        color: white;
+        margin: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        width: 60%;
+        height: 70%;
+        box-shadow: 20px;
+    }
+}
