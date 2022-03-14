@@ -1,0 +1,139 @@
+.header {
+    padding: 20px;
+    display: flex;
+    color: rgb(0, 72, 180);
+    background-color: rgba(83, 36, 192, 0);
+}
+
+.samp {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    height: fit-content;
+    width: fit-content;
+}
+
+.samp:hover {
+    cursor: pointer;
+    color: rgb(255, 79, 79);
+    background-color: white;
+}
+
+.space {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anchor {
+    color: rgb(0, 72, 180);
+    text-decoration: none;
+}
+
+.anchor:hover {
+    cursor: pointer;
+    color: rgb(255, 79, 79);
+    background-color: white;
+}
+
+.text-content {
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 72, 180);
+}
+
+.name-div {
+    display: flex;
+    margin-left: 480px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name-input {
+    border: none;
+    border-bottom: 2px solid rgb(0, 72, 180);
+    width: 300px;
+    height: 50px;
+}
+
+.massage-input {
+    border: none;
+    border-bottom: 2px solid rgb(0, 72, 180);
+    width: 650px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.massage-div {
+    margin-left: 480px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.send-botton {
+    margin-left: 700px;
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.send-botton:hover {
+    cursor: pointer;
+    background-color: rgb(0, 72, 180);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(0, 72, 180);
+    position: absolute;
+    bottom: 0PX;
+    color: white;
+}
+
+.footer-item {
+    margin: 20px;
+}
+
+.icon {
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    transition: transform(0.5sec);
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: rgb(231, 122, 33);
+    transform: scale(1.5);
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: left;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 35px;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(228, 0, 0);
+}
